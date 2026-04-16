@@ -1,0 +1,50 @@
+2026-04-15 12:47:49  INFO      Bronze equity_prices table ready.
+2026-04-15 12:47:49  INFO      Fetching ^GSPC — S&P 500 index
+2026-04-15 12:47:50  ERROR       ✗ ^GSPC failed: Too Many Requests. Rate limited. Try after a while.
+2026-04-15 12:47:50  INFO      Fetching ^VIX — CBOE Volatility Index — market fear gauge
+2026-04-15 12:47:52  ERROR       ✗ ^VIX failed: Too Many Requests. Rate limited. Try after a while.
+2026-04-15 12:47:52  INFO      Fetching SPY — S&P 500 ETF (liquid benchmark)
+2026-04-15 12:47:53  ERROR       ✗ SPY failed: Too Many Requests. Rate limited. Try after a while.
+2026-04-15 12:47:53  INFO      Fetching QQQ — Nasdaq-100 ETF (growth/tech exposure)
+2026-04-15 12:47:54  ERROR       ✗ QQQ failed: Too Many Requests. Rate limited. Try after a while.
+2026-04-15 12:47:54  INFO      Fetching IEF — 7-10Y Treasury ETF (bond market behaviour)
+2026-04-15 12:47:56  ERROR       ✗ IEF failed: Too Many Requests. Rate limited. Try after a while.
+2026-04-15 12:47:56  INFO      Fetching GLD — Gold ETF (safe haven signal)
+2026-04-15 12:47:57  ERROR       ✗ GLD failed: Too Many Requests. Rate limited. Try after a while.
+2026-04-15 12:47:57  INFO      Fetching XLF — Financials sector ETF (rate-cycle sensitive)
+2026-04-15 12:47:59  ERROR       ✗ XLF failed: Too Many Requests. Rate limited. Try after a while.
+2026-04-15 12:47:59  INFO      Fetching XLE — Energy sector ETF (inflation hedge proxy)
+2026-04-15 12:48:00  ERROR       ✗ XLE failed: Too Many Requests. Rate limited. Try after a while.
+2026-04-15 12:48:00  INFO      Done. Total rows in bronze.equity_prices: 0
+2026-04-15 13:01:49  INFO      Bronze equity_prices table ready.
+2026-04-15 13:01:49  INFO      Waiting 3 seconds before fetching (rate-limit buffer)...
+2026-04-15 13:01:52  INFO      Downloading 8 tickers in one batch request...
+2026-04-15 13:01:53  INFO        Parsed ^GSPC: 6609 rows (2000-01-03 to 2026-04-14)
+2026-04-15 13:01:53  INFO        Parsed ^VIX: 6609 rows (2000-01-03 to 2026-04-14)
+2026-04-15 13:01:53  INFO        Parsed SPY: 6609 rows (2000-01-03 to 2026-04-14)
+2026-04-15 13:01:53  INFO        Parsed QQQ: 6609 rows (2000-01-03 to 2026-04-14)
+2026-04-15 13:01:53  INFO        Parsed IEF: 5965 rows (2002-07-30 to 2026-04-14)
+2026-04-15 13:01:53  INFO        Parsed GLD: 5383 rows (2004-11-18 to 2026-04-14)
+2026-04-15 13:01:53  INFO        Parsed XLF: 6609 rows (2000-01-03 to 2026-04-14)
+2026-04-15 13:01:53  INFO        Parsed XLE: 6609 rows (2000-01-03 to 2026-04-14)
+2026-04-15 13:01:53  INFO        ✓ ^GSPC: 6609 rows written to bronze.
+2026-04-15 13:01:53  INFO        ✓ ^VIX: 6609 rows written to bronze.
+2026-04-15 13:01:53  INFO        ✓ SPY: 6609 rows written to bronze.
+2026-04-15 13:01:53  INFO        ✓ QQQ: 6609 rows written to bronze.
+2026-04-15 13:01:53  INFO        ✓ IEF: 5965 rows written to bronze.
+2026-04-15 13:01:53  INFO        ✓ GLD: 5383 rows written to bronze.
+2026-04-15 13:01:53  INFO        ✓ XLF: 6609 rows written to bronze.
+2026-04-15 13:01:53  INFO        ✓ XLE: 6609 rows written to bronze.
+2026-04-15 13:01:53  INFO      Done. Total rows in bronze.equity_prices: 51002
+2026-04-15 14:24:02  INFO      Bronze equity_prices table ready.
+2026-04-15 14:24:02  INFO      Waiting 3 seconds before fetching (rate-limit buffer)...
+2026-04-15 14:24:05  INFO      Downloading 8 tickers in one batch request...
+2026-04-15 14:24:08  ERROR     
+8 Failed downloads:
+2026-04-15 14:24:08  ERROR     ['^VIX', 'IEF', 'SPY', '^GSPC', 'GLD', 'XLE', 'QQQ', 'XLF']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2026-04-16 15:05:29  INFO      Bronze equity_prices table ready.
+2026-04-16 15:05:29  INFO      Waiting 3 seconds before fetching (rate-limit buffer)...
+2026-04-16 15:05:32  INFO      Downloading 8 tickers in one batch request...
+2026-04-16 15:05:34  ERROR     
+8 Failed downloads:
+2026-04-16 15:05:34  ERROR     ['GLD', 'IEF', 'XLE', 'QQQ', 'SPY', '^VIX', '^GSPC', 'XLF']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')

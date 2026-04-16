@@ -1,0 +1,6 @@
+fredapi==0.5.2
+yfinance==0.2.54
+duckdb==0.10.3
+pandas==2.2.2
+python-dotenv==1.0.1
+requests==2.32.3

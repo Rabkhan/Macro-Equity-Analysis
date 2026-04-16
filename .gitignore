@@ -1,0 +1,7 @@
+.venv/
+
+/.env
+
+data/
+
+/test_duckdb.py
