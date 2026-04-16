@@ -5,3 +5,9 @@
 data/
 
 /test_duckdb.py
+
+/.DS_Store
+
+/*.log
+/fetch_equity.log
+/fetch_fred.log
